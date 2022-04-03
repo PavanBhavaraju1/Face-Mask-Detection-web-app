@@ -1,0 +1,59 @@
+body{
+    margin: 0%;
+    font-family: Junge ;
+}
+    
+.containerp{
+    text-align: center;
+    background-color:#000000;
+    padding: 40px;
+    margin: 0px;
+}
+.bdy{
+   background-color: rgba(204, 208, 211, 0.4) ;
+    background-image: linear-gradient(to right,#010306,#d1d3d6,#010812);
+    height: 50%;
+    display: block;
+    
+    
+    background-size:cover ;
+}
+
+.navbar-brand{
+    color: #cf4520;
+    
+    font-family: Junge ;
+
+
+    font-weight: 500;
+    font-size: 40px;
+}
+.head{
+    padding:10px;
+}
+.container{
+    padding-left: 445px;
+    padding-top : 30px ;
+}
+.btn{
+    margin-top: 10px;
+    color: #cf4520;
+    margin-left: 600px;
+    cursor: pointer;
+    border-color: #000000;
+    margin-bottom: 30px;
+    background-color: #000000;
+    display:inline-block;
+    padding: 15px 30px ;
+}
+.btn1{
+    margin-top :10px;
+    cursor: pointer;
+    background-color: #000000;
+    border-color: #000000;
+    color: #cf4520;
+    margin-left: 30px;
+    display:inline-block;
+    padding:  15px 30px;
+    margin-bottom: 30px;
+}
