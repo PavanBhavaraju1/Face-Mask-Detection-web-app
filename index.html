@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <link rel="htmlpage" href="index-1.html" />
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/blazeface"></script>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Junge"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        margin: 0%;
+        font-family: Junge;
+      }
+
+      .containerp {
+        text-align: center;
+        background-color: #000000;
+        padding: 40px;
+        margin: 0px;
+      }
+      .bdy {
+        background-color: rgba(204, 208, 211, 0.4);
+        background-image: linear-gradient(to right, #010306, #d1d3d6, #010812);
+        height: 50%;
+        display: block;
+
+        background-size: cover;
+      }
+
+      .navbar-brand {
+        color: #cf4520;
+
+        font-family: Junge;
+
+        font-weight: 500;
+        font-size: 40px;
+      }
+      .head {
+        padding: 10px;
+      }
+      .container {
+        padding-left: 445px;
+        padding-top: 30px;
+      }
+      .btn {
+        margin-top: 10px;
+        color: #cf4520;
+        margin-left: 600px;
+        cursor: pointer;
+        border-color: #000000;
+        margin-bottom: 30px;
+        background-color: #000000;
+        display: inline-block;
+        padding: 15px 30px;
+      }
+      .btn1 {
+        margin-top: 10px;
+        cursor: pointer;
+        background-color: #000000;
+        border-color: #000000;
+        color: #cf4520;
+        margin-left: 30px;
+        display: inline-block;
+        padding: 15px 30px;
+        margin-bottom: 30px;
+      }
+    </style>
+    <body>
+      <div class="containerp">
+        <header>
+          <nav class="navbar1">
+            <a class="navbar-brand">
+              <strong class="head">Face Mask Detector</strong>
+            </a>
+          </nav>
+        </header>
+      </div>
+
+      <div class="bdy">
+        <div class="container">
+          <div class="row bg-light" style="height: 480px">
+            <img
+              id="imge"
+              style="
+                padding-top: 60px;
+                margin: auto;
+                position: relative;
+                height: 300px;
+                width: 600px;
+              "
+              src="https://static01.nyt.com/images/2020/11/19/science/19VIRUS-MASKCAMPAIGN-vidcover/maskvideo_master-videoSixteenByNineJumbo1600.jpg"
+            />
+            <video
+              id="video"
+              playsinline
+              class="border"
+              style="margin: auto; display: inline-block; padding-left: -50px"
+            ></video>
+            <canvas
+              id="output"
+              class="canvas-output"
+              style="margin: auto; position: relative; top: -480px; left: 10px"
+            ></canvas>
+          </div>
+        </div>
+
+        <a href="index1.html"
+          ><div class="btn"><i class="fas fa-video"></i> &nbsp;START</div></a
+        >
+        <div class="btn1"><i class="fas fa-square"></i> &nbsp; STOP</div>
+        <p
+          style="
+            color: #cf4520;
+            text-align: center;
+            background-color: black;
+            padding: 10px;
+          "
+        >
+          Developed by Bhavaraju Pavan and Chebolu Sai Kiran
+        </p>
+      </div>
+    </body>
+  </head>
+</html>
